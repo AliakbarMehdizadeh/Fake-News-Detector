@@ -17,7 +17,14 @@ The Fake News Detection project includes the following components:
 
 The dataset used for training is the [Fake News Classification Dataset](https://www.kaggle.com/datasets/saurabhshahane/fake-news-classification) from Kaggle. It contains news articles labeled as real or fake, providing the necessary data for training and evaluating the classification model.
 
+### Evaluation Metrics
 
+- **Confusion Matrix**: Displays the performance of the classification model.
+- **Classification Report**: Provides precision, recall, and F1-score for each class.
+- **ROC Curve**: Plots the receiver operating characteristic curve.
+- **Accuracy**: Shows the accuracy score of the model.
+
+  
 ### Features
 
 - **Preprocessing**: Cleans text data and handles edge cases.

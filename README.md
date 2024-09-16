@@ -25,22 +25,10 @@ The dataset used for training is the [Fake News Classification Dataset](https://
 - **Model Training**: Implements a neural network for classification and evaluates its performance.
 - **Visualization**: Plots confusion matrix, classification report, ROC curve, and accuracy metrics.
 
-## Requirements
-
-- Python 3.8 or later
-- TensorFlow
-- Keras
-- Scikit-learn
-- Transformers
-- VADER Sentiment
-- TextBlob
-- Pandas
-- Matplotlib
-- Seaborn
 
 ## Usage
+
 1. Clone the repository.
-2. Download Dataset
+2. Download Dataset from Kaggle
 3. Run `pip3 install -r requirements.txt`.
-4. Edit `config.py`.
-5. Run `python main.py`.
+4. Run `python main.py`.

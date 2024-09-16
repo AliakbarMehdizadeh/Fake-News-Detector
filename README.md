@@ -1,7 +1,7 @@
 # Fake-News-Detector
 This project is a Fake News Detection and Classification system that leverages advanced natural language processing and machine learning techniques, including TF-IDF, BERT, and sentiment analysis. The system is designed to identify and classify news articles as either real or fake based on their content.
 
-## Project Overview
+### Overview
 
 The Fake News Detection project includes the following components:
 
@@ -13,12 +13,12 @@ The Fake News Detection project includes the following components:
 - **Model Training**: Builds and trains a neural network model using TensorFlow and Keras to classify news articles.
 - **Evaluation**: Evaluates model performance with metrics such as confusion matrix, classification report, ROC curve, and accuracy.
 
-## Dataset
+### Dataset
 
 The dataset used for training is the [Fake News Classification Dataset](https://www.kaggle.com/datasets/saurabhshahane/fake-news-classification) from Kaggle. It contains news articles labeled as real or fake, providing the necessary data for training and evaluating the classification model.
 
 
-## Features
+### Features
 
 - **Preprocessing**: Cleans text data and handles edge cases.
 - **Feature Engineering**: Extracts TF-IDF features, BERT embeddings, and sentiment scores.
@@ -26,7 +26,7 @@ The dataset used for training is the [Fake News Classification Dataset](https://
 - **Visualization**: Plots confusion matrix, classification report, ROC curve, and accuracy metrics.
 
 
-## Usage
+### Usage
 
 1. Clone the repository.
 2. Download Dataset from Kaggle

@@ -91,9 +91,9 @@ class FeatureGeneration:
 ##############################################################################################
 
 
-import tensorflow as tf
-from tensorflow.keras import layers, models
-from tensorflow.keras.callbacks import EarlyStopping, ReduceLROnPlateau
+import keras
+from keras import layers, models
+from keras.callbacks import EarlyStopping, ReduceLROnPlateau
 from sklearn.metrics import classification_report, confusion_matrix, roc_curve, auc, accuracy_score
 import matplotlib.pyplot as plt
 import pandas as pd
@@ -121,7 +121,7 @@ class NeuralNetworkTrainer:
         ])
 
         # Compile the model
-        self.model.compile(optimizer=tf.keras.optimizers.Adam(learning_rate=0.001),
+        self.model.compile(optimizer=keras.optimizers.Adam(learning_rate=0.001),
                            loss='binary_crossentropy',
                            metrics=['accuracy'])
 

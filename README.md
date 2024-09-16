@@ -32,3 +32,9 @@ The dataset used for training is the [Fake News Classification Dataset](https://
 2. Download Dataset from Kaggle
 3. Run `pip3 install -r requirements.txt`.
 4. Run `python main.py`.
+
+### Future Steps
+
+- **Fine-Tuning the Model**: Further improve model performance by experimenting with different hyperparameters, architectures, and regularization techniques.
+- **Multi-Modal Model**: Extend the system to process images as well by integrating image data with text data, enabling a multi-modal approach to fake news detection.
+

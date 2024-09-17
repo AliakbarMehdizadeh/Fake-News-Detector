@@ -1,6 +1,15 @@
 # Fake-News-Detector
 This project is a Fake News Detection and Classification system that leverages advanced natural language processing and machine learning techniques, including TF-IDF, BERT, and sentiment analysis. The system is designed to identify and classify news articles as either real or fake based on their content.
 
+#### Example Data for Fake News Detection
+
+| Headline                                                  | Content                                                                                                           | Label |
+|-----------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------|-------|
+| Illinois House passes $5 billion tax package, spending plan | CHICAGO (Reuters) - Illinois’ Democratic-controlled House of Representatives passed big, permanent i...            | FAKE =0     |
+| AT&T, Time Warner and the Death of Privacy               | AT&T, Time Warner and the Death of Privacy By Amy Goodman and Denis Moynihan AT&T plans to buy Ti...               | REAL=1     |
+
+#### Performance Analysis: 
+
 <p float="left">
   <img src="accuracy_plot.png" alt="Accuracy Plot" width="400" />
   <img src="roc_curve.png" alt="ROC Curve" width="400" />
